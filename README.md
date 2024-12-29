@@ -1,4 +1,4 @@
-# 🚀 **boilerplate-vite-tailwindcss-typescript**
+# 🚀 **check-sua-sorte**
 
 ## 📚 **Project Scripts Guide**
 
