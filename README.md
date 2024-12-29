@@ -1,4 +1,4 @@
-# 🚀 **check-sua-sorte**
+# 🚀 **cheque-sua-sorte**
 
 ## 📚 **Project Scripts Guide**
 
