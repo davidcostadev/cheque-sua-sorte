@@ -11,19 +11,19 @@ function App() {
             <h1 className="text-4xl font-bold text-blue-500">
               Check sua sorte
             </h1>
-            <nav className="space-x-4">
-              <Link to="/" className="text-blue-500 underline">
-                Home
-              </Link>
-              <Link to="/my-numbers" className="text-blue-500 underline">
-                My Numbers
-              </Link>
-            </nav>
           </header>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/my-numbers" element={<MyNumbers />} />
           </Routes>
+          <nav className="flex flex-col items-start gap-2 mt-10 mb-5">
+            <Link to="/" className="text-blue-500 underline w-full">
+              Home
+            </Link>
+            <Link to="/my-numbers" className="text-blue-500 underline w-full">
+              My Numbers
+            </Link>
+          </nav>
         </div>
       </div>
     </HashRouter>
